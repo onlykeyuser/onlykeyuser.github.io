@@ -32,7 +32,7 @@
 			}else { $(this).removeClass('s2scroll'); }
 		});
 		
-		$.get('https://github.com/onlykeyuser/github.io/style.v1.4.css',function(data) {
+		$.get('https://onlykeyuser.github.io/style.v1.4.css',function(data) {
 			$('<style>').html(data).insertAfter($('head').find('meta').last());
 			
 			$.each(that, function() {
